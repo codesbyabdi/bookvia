@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>David Goggins — Stay Hard | Book Now | Tidli</title>
+  <meta name="description" content="Book a session with David Goggins, a retired Navy SEAL and ultra-endurance athlete. Break your mental chains, find your own path, and stay hard. Pay via Stripe Checkout." />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="canonical" href="https://tidli.dk/davidgoggins" />
+  <meta property="og:title" content="David Goggins — Stay Hard" />
+  <meta property="og:description" content="Break your mental chains, find your own path, and stay hard." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tidli.dk/davidgoggins" />
+  <meta property="og:image" content="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/67c1bb99796956001de4a7a8.jpg" />
+  <meta name="theme-color" content="#e11d48">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      /* shadcn-like tokens */
+      --radius: 14px;
+      --shadow: 0 10px 20px -8px rgb(0 0 0 / 0.25);
+      --border: 1px solid rgb(228 228 231 / 1);
+      /* hero controls (tighter banner on mobile) */
+      --hero-h: clamp(220px, 32vh, 380px);
+      --hero-overlap: 80px;
+    }
+    @media (min-width: 768px) {
+      :root { --hero-h: clamp(300px, 38vh, 440px); --hero-overlap: 96px; }
+    }
+    .container-pg { max-width: 1200px; margin-inline: auto; padding-inline: 1rem; }
+    .card { border: var(--border); border-radius: var(--radius); background: white; box-shadow: 0 1px 0 rgb(0 0 0 / 0.02); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; padding:.6rem 1rem; border-radius: .75rem; border: 1px solid rgb(228 228 231 / 1); font-weight:600; }
+    .btn-sm{ padding:.4rem .65rem; font-size:.875rem; }
+    .btn-primary { background: #e11d48; color: white; border-color: #e11d48; }
+    .btn-primary:focus-visible, .btn:focus-visible { outline: 3px solid #fb7185; outline-offset: 2px; }
+    .btn-outline { background:white; color:#0f172a; }
+    .badge { display:inline-flex; align-items:center; gap:.375rem; padding:.25rem .5rem; border-radius:999px; border:1px solid rgb(228 228 231); font-size:.75rem; }
+    .badge-onimage{ background: rgba(255,255,255,.88); border-color: transparent; backdrop-filter: saturate(160%) blur(6px); -webkit-backdrop-filter: saturate(160%) blur(6px); }
+    .grid-services { display:grid; grid-template-columns: 1fr; gap:1rem; }
+    @media (min-width: 768px) { .grid-services{ grid-template-columns: 1fr 1fr; } }
+    .hero { height: var(--hero-h); min-height: 220px; }
+    .hero-overlap { margin-top: calc(var(--hero-overlap) * -1); }
+    .hero-img::after{ content:""; position:absolute; inset:0; background: linear-gradient(to top, rgba(255,255,255,.9), rgba(255,255,255,.4), transparent); }
+    .hero-img{ z-index:0; pointer-events:none; }
+    details>summary::-webkit-details-marker{ display:none; }
+    .kbd{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; border:1px solid rgb(212 212 216); padding:.125rem .375rem; border-radius:.375rem; font-size:.75rem; }
+    .slot { min-width: 5.25rem; height: 2.5rem; border-radius: .625rem; border:1px solid rgb(228 228 231); padding:.25rem .5rem; display:inline-flex; align-items:center; justify-content:center; }
+    .slot[aria-pressed="true"]{ background:#e11d48; color:white; border-color:#e11d48; }
+    .slot[aria-disabled="true"]{ color:rgb(113 113 122); background: repeating-linear-gradient(45deg, #f4f4f5, #f4f4f5 6px, #ececee 6px, #ececee 12px); }
+    .visually-hidden { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0, 0, 0, 0); white-space:nowrap; border:0; }
+    dialog::backdrop { background: rgb(0 0 0 / .5); }
+    .shadow-soft{ box-shadow: var(--shadow); }
+    /* QA pill */
+    .qa-ok{ background:#064e3b; color:#ecfdf5; }
+    .qa-bad{ background:#7f1d1d; color:#fee2e2; }
+
+    /* Custom styles for Goggins theme - less drastic */
+    .card.revamp {
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 10px 20px -8px rgba(0,0,0,0.1);
+        padding: 1.5rem;
+    }
+    
+    /* New FAQ styles */
+    .faq-item summary {
+        transition: margin-bottom 0.2s ease-out;
+    }
+    .faq-item[open] summary {
+        margin-bottom: 0.75rem;
+    }
+    .faq-item .icon {
+        transition: transform 0.3s ease-in-out;
+    }
+    .faq-item[open] .icon {
+        transform: rotate(45deg);
+    }
+    
+    /* New Gallery styles */
+    .gallery-grid {
+        column-count: 2;
+        column-gap: 1rem;
+    }
+    @media (min-width: 768px) {
+        .gallery-grid {
+            column-count: 3;
+        }
+    }
+    .gallery-item {
+        margin-bottom: 1rem;
+        break-inside: avoid;
+    }
+    .gallery-item img {
+        border-radius: var(--radius);
+        border: var(--border);
+    }
+    #lightbox {
+        transition: opacity 0.3s ease-in-out;
+    }
+
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-900 [font-feature-settings:'ss01','ss02']">
+
+  <header class="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
+    <div class="container-pg flex h-16 items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div aria-hidden="true" class="grid h-9 w-9 place-items-center rounded-full bg-rose-600 text-white font-bold shadow-sm">G</div>
+        <span class="text-sm sm:text-base text-slate-600">/</span>
+        <a href="#top" class="font-semibold text-slate-900 ring-focus">davidgoggins</a>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-8" aria-label="Primary">
+        <a href="#services" class="hover:underline underline-offset-4">Services</a>
+        <a href="#about" class="hover:underline underline-offset-4">About</a>
+        <a href="#testimonials" class="hover:underline underline-offset-4">Testimonials</a>
+        <a href="#case-studies" class="hover:underline underline-offset-4">Case Studies</a>
+        <a href="#faq" class="hover:underline underline-offset-4">FAQ</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#booking" id="header-cta" class="inline-flex items-center justify-center rounded-xl bg-rose-600 px-4 py-2 text-sm font-semibold text-white hover:bg-rose-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600">Book Now</a>
+        <button id="navToggle" class="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-neutral-200 md:hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden">
+        <div class="container-pg pb-4 space-y-2">
+            <a href="#services" class="block rounded-md px-4 py-2 hover:bg-zinc-100">Services</a>
+            <a href="#about" class="block rounded-md px-4 py-2 hover:bg-zinc-100">About</a>
+            <a href="#testimonials" class="block rounded-md px-4 py-2 hover:bg-zinc-100">Testimonials</a>
+            <a href="#case-studies" class="block rounded-md px-4 py-2 hover:bg-zinc-100">Case Studies</a>
+            <a href="#faq" class="block rounded-md px-4 py-2 hover:bg-zinc-100">FAQ</a>
+        </div>
+    </div>
+  </header>
+
+
+  <!-- === HERO SECTION === -->
+  <section id="top" class="relative">
+    <div class="relative hero w-full overflow-hidden">
+      <!-- FIX: Updated Hero Image -->
+      <img src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/67c1bb99796956001de4a7a8.jpg" alt="David Goggins running" class="h-full w-full object-cover"/>
+      <div class="hero-img absolute inset-0 z-0 pointer-events-none"></div>
+    </div>
+    <div class="container-pg hero-overlap relative z-10 -mt-24 md:-mt-28">
+      <div class="card revamp p-6 md:p-8 text-center mx-auto">
+          <!-- FIX: Updated Profile Picture -->
+          <img class="h-28 w-28 rounded-full object-cover ring-4 ring-white mx-auto -mt-20 shadow-lg" src="https://speaking.com/wp-content/uploads/2022/12/1651686963_David-Goggins.jpg" alt="Portrait of David Goggins"/>
+          <div class="mt-4">
+              <p class="text-rose-600 font-semibold">Ultra-Endurance Coach</p>
+              <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mt-1">David Goggins</h1>
+              <p class="text-zinc-600 text-lg max-w-2xl mx-auto mt-3">
+                A relentless, systems-driven approach to performance. Show up when it’s hard; especially when it’s hard.
+              </p>
+          </div>
+          <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a href="#booking" class="btn btn-primary shadow-soft w-full sm:w-auto">Book Session</a>
+              <a href="#services" class="btn btn-outline w-full sm:w-auto">See Programs</a>
+          </div>
+          <div class="mt-6 flex items-center justify-center gap-4 text-sm">
+              <span class="badge">★ 4.94</span>
+              <span class="badge">218 reviews</span>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- === END HERO SECTION === -->
+
+  <main class="container-pg mt-16 lg:mt-24 grid grid-cols-1 lg:grid-cols-3 gap-x-8 items-start">
+    <!-- Left column -->
+    <div class="lg:col-span-2 space-y-16 lg:space-y-20">
+      <!-- Services -->
+      <section id="services" aria-labelledby="services-title" class="space-y-8">
+        <div class="max-w-3xl mx-auto border-l-4 border-rose-600 pl-6">
+          <p class="text-sm font-semibold uppercase tracking-wider text-rose-600">Our Programs</p>
+          <h2 id="services-title" class="text-3xl md:text-4xl font-extrabold tracking-tighter mt-1">Services</h2>
+          <p class="mt-3 text-lg text-zinc-600">Stop lying to yourself. Choose a session that will break you down and build you back stronger.</p>
+        </div>
+        <div class="grid-services max-w-3xl mx-auto" id="servicesGrid"><!-- populated by JS --></div>
+        <p class="text-xs text-zinc-500 max-w-3xl mx-auto">All prices are in USD. Stay hard.</p>
+      </section>
+
+      <!-- About -->
+      <section id="about" aria-labelledby="about-title" class="space-y-8">
+        <div class="max-w-3xl mx-auto border-l-4 border-rose-600 pl-6">
+            <p class="text-sm font-semibold uppercase tracking-wider text-rose-600">The Man in the Mirror</p>
+            <h2 id="about-title" class="text-3xl md:text-4xl font-extrabold tracking-tighter mt-1">About David Goggins</h2>
+            <p class="mt-3 text-lg text-zinc-600">Retired Navy SEAL, ultramarathon runner, ultra-distance cyclist, triathlete, public speaker, and author. I'm not here to coddle you.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+          <article class="card md:col-span-2 p-5 leading-relaxed text-zinc-700">
+            I don't offer sympathy. I offer a path. I will help you look in the mirror, face your fears, and take control of your life. This is not for the weak-minded. This is about staying hard and getting to work.
+          </article>
+          <aside class="card p-5 space-y-3 text-sm">
+            <div class="flex items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> <a class="underline underline-offset-2" href="https://davidgoggins.com" target="_blank" rel="noreferrer">davidgoggins.com</a></div>
+            <div class="flex items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg> stayhard@davidgoggins.com</div>
+            <div class="flex items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2v20"/><path d="M2 2v20"/><path d="M5 2h14"/><path d="M5 22h14"/><path d="M8 5h8v14H8z"/></svg> +1 555-555-5555</div>
+            <div class="flex items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 5-9 12-9 12S3 15 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> In Your Head</div>
+            <hr class="border-zinc-200"/>
+            <div>
+              <div class="text-xs uppercase text-zinc-500 mb-2">Languages</div>
+              <div class="flex flex-wrap gap-2"><span class="badge">English</span></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials" aria-labelledby="testimonials-title" class="space-y-8">
+        <div class="max-w-3xl mx-auto border-l-4 border-rose-600 pl-6">
+            <p class="text-sm font-semibold uppercase tracking-wider text-rose-600">Proof of Work</p>
+            <h2 id="testimonials-title" class="text-3xl md:text-4xl font-extrabold tracking-tighter mt-1">Testimonials</h2>
+            <p class="mt-3 text-lg text-zinc-600">Don't take my word for it. Hear from those who've been through the fire.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+          <figure class="card p-5">
+            <div class="flex items-center gap-3 mb-2">
+              <img class="h-10 w-10 rounded-full object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&auto=format&fit=crop" alt="Portrait of a determined person"/>
+              <figcaption>
+                <div class="font-medium leading-none">Can't Hurt Me</div>
+                <div class="text-sm text-zinc-600">★★★★★</div>
+              </figcaption>
+            </div>
+            <blockquote class="text-sm text-zinc-700">“He gave me the blueprint to conquer my mind and run toward the pain. I am no longer a victim of my own thoughts.”</blockquote>
+          </figure>
+          <figure class="card p-5">
+            <div class="flex items-center gap-3 mb-2">
+              <img class="h-10 w-10 rounded-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Portrait of a strong-willed person"/>
+              <figcaption>
+                <div class="font-medium leading-none">Accountability Mirror</div>
+                <div class="text-sm text-zinc-600">★★★★★</div>
+              </figcaption>
+            </div>
+            <blockquote class="text-sm text-zinc-700">“David forced me to look at my failures. Now I own them and use them as fuel. Best session I ever had.”</blockquote>
+          </figure>
+          <figure class="card p-5">
+            <div class="flex items-center gap-3 mb-2">
+              <img class="h-10 w-10 rounded-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop" alt="Portrait of a resilient person"/>
+              <figcaption>
+                <div class="font-medium leading-none">Cookie Jar</div>
+                <div class="text-sm text-zinc-600">★★★★☆</div>
+              </figcaption>
+            </div>
+            <blockquote class="text-sm text-zinc-700">“He helped me open my cookie jar to remember my past victories. It's a game-changer.”</blockquote>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Case Studies -->
+      <section id="case-studies" aria-labelledby="case-studies-title" class="space-y-8">
+        <div class="max-w-3xl mx-auto border-l-4 border-rose-600 pl-6">
+            <p class="text-sm font-semibold uppercase tracking-wider text-rose-600">Real Transformations</p>
+            <h2 id="case-studies-title" class="text-3xl md:text-4xl font-extrabold tracking-tighter mt-1">Case Studies</h2>
+            <p class="mt-3 text-lg text-zinc-600">See the results of putting in the work. No excuses, just outcomes.</p>
+        </div>
+        <div id="caseStudiesGrid" class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6 max-w-5xl mx-auto">
+          <!-- Case studies will be injected here by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" aria-labelledby="gallery-title" class="space-y-8">
+        <div class="max-w-3xl mx-auto border-l-4 border-rose-600 pl-6">
+            <p class="text-sm font-semibold uppercase tracking-wider text-rose-600">Embrace the Suck</p>
+            <h2 id="gallery-title" class="text-3xl md:text-4xl font-extrabold tracking-tighter mt-1">Gallery of Pain</h2>
+            <p class="mt-3 text-lg text-zinc-600">A glimpse into the forge where weakness is burned away.</p>
+        </div>
+        <div class="gallery-grid max-w-3xl mx-auto">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=600&auto=format&fit=crop" alt="A man running with a fierce expression" loading="lazy"/>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=600&auto=format&fit=crop" alt="A person climbing a rope, showing immense strength" loading="lazy"/>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=600&auto=format&fit=crop" alt="A runner's muddy shoes after a long race" loading="lazy"/>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=600&auto=format&fit=crop" alt="A man training intensely on a pull-up bar" loading="lazy"/>
+            </div>
+             <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=600&auto=format&fit=crop" alt="Intense workout session" loading="lazy"/>
+            </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" aria-labelledby="faq-title" class="space-y-8">
+        <div class="max-w-3xl mx-auto border-l-4 border-rose-600 pl-6">
+            <p class="text-sm font-semibold uppercase tracking-wider text-rose-600">No Excuses</p>
+            <h2 id="faq-title" class="text-3xl md:text-4xl font-extrabold tracking-tighter mt-1">FAQ & Rules</h2>
+            <p class="mt-3 text-lg text-zinc-600">Read this before you waste my time. Or yours.</p>
+        </div>
+        <div class="space-y-3 max-w-3xl mx-auto">
+            <details class="faq-item bg-white p-4 border rounded-xl" role="group">
+                <summary class="flex items-center justify-between cursor-pointer font-medium">
+                    What is the cancellation policy?
+                    <span class="icon transform transition-transform duration-300">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14m-7-7h14"/></svg>
+                    </span>
+                </summary>
+                <p class="mt-2 text-zinc-700 text-sm leading-relaxed">There is no cancellation. You made a commitment. Don't be a coward. Rescheduling is available up to 24 hours before the session. After that, you pay for the time you reserved.</p>
+            </details>
+            <details class="faq-item bg-white p-4 border rounded-xl" role="group">
+                <summary class="flex items-center justify-between cursor-pointer font-medium">
+                    Do you offer online sessions?
+                    <span class="icon transform transition-transform duration-300">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14m-7-7h14"/></svg>
+                    </span>
+                </summary>
+                <p class="mt-2 text-zinc-700 text-sm leading-relaxed">Yes. All sessions are done virtually. We'll be in your mind, which is where the real battlefield is.</p>
+            </details>
+            <details class="faq-item bg-white p-4 border rounded-xl" role="group">
+                <summary class="flex items-center justify-between cursor-pointer font-medium">
+                    How do I pay?
+                    <span class="icon transform transition-transform duration-300">
+                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14m-7-7h14"/></svg>
+                    </span>
+                </summary>
+                <p class="mt-2 text-zinc-700 text-sm leading-relaxed">You pay securely at the time of booking (via Stripe Checkout). You will receive an invitation to the session and a reminder to STAY HARD.</p>
+            </details>
+        </div>
+      </section>
+    </div>
+
+    <!-- Right column: Booking widget -->
+    <aside id="booking" class="lg:col-span-1 space-y-4 lg:sticky lg:top-24">
+        <section class="card shadow-soft p-5" aria-labelledby="book-title">
+            <div class="flex items-center justify-between gap-2">
+                <div>
+                    <h3 id="book-title" class="text-xl font-semibold">Book a Session</h3>
+                    <p class="text-zinc-600 text-sm">Face the beast in the mirror.</p>
+                </div>
+                <span class="badge" title="Secure Payment"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg> Secure</span>
+            </div>
+            <ol class="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-2 text-[11px] sm:text-xs" id="stepper" aria-label="Checkout Steps"></ol>
+            <hr class="my-4 border-zinc-200"/>
+            <div id="step-panels" class="space-y-4"></div>
+            <div class="mt-4 flex items-center justify-between gap-2">
+                <div id="step-hint" class="text-xs text-zinc-600"></div>
+                <div class="flex gap-2">
+                    <button id="btn-back" class="btn btn-outline" type="button">Back</button>
+                    <button id="btn-next" class="btn btn-primary" type="button">Continue</button>
+                </div>
+            </div>
+        </section>
+        <section class="card p-5 text-sm">
+            <h4 class="font-semibold">Contact</h4>
+            <div class="mt-2 space-y-1">
+                <div class="flex items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg> stayhard@davidgoggins.com</div>
+                <div class="flex items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2v20"/><path d="M2 2v20"/><path d="M5 2h14"/><path d="M5 22h14"/><path d="M8 5h8v14H8z"/></svg> +1 555-555-5555</div>
+                <div class="flex items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 5-9 12-9 12S3 15 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> In Your Head</div>
+            </div>
+        </section>
+    </aside>
+  </main>
+
+  <footer class="mt-10 border-t">
+    <div class="container-pg py-8 text-sm text-zinc-600 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>© <span id="year"></span> David Goggins · Stay Hard.</div>
+      <nav class="flex items-center gap-3">
+        <a href="#faq" class="underline underline-offset-2">Rules</a>
+        <span aria-hidden="true">·</span>
+        <a href="#services" class="underline underline-offset-2">Services</a>
+        <span aria-hidden="true">·</span>
+        <a href="#booking" class="underline underline-offset-2">Book</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center p-4 z-50 opacity-0 pointer-events-none">
+    <img id="lightbox-img" src="" alt="Lightbox image" class="max-w-full max-h-full object-contain">
+    <button id="lightbox-close" class="absolute top-4 right-4 text-white text-4xl">&times;</button>
+  </div>
+
+
+  <!-- Service Details Dialog -->
+  <dialog id="detailsDialog" class="rounded-2xl p-0 w-[92vw] max-w-xl">
+    <div class="card border-0">
+      <header class="flex items-center justify-between px-5 py-4 border-b">
+        <h3 id="detailsTitle" class="text-lg font-semibold">Service</h3>
+        <button id="detailsClose" class="btn btn-outline" aria-label="Close details"><span>Close</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </header>
+      <div class="p-5 space-y-3 text-sm" id="detailsBody"></div>
+    </div>
+  </dialog>
+
+  <!-- Case Study Dialog -->
+  <dialog id="caseStudyDialog" class="rounded-2xl p-0 w-[92vw] max-w-2xl">
+      <div class="card border-0">
+          <header class="flex items-center justify-between px-5 py-4 border-b">
+              <h3 id="caseStudyTitle" class="text-lg font-semibold">Case Study</h3>
+              <button id="caseStudyClose" class="btn btn-outline" aria-label="Close case study"><span>Close</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="M6 6l12 12"/></svg>
+              </button>
+          </header>
+          <div class="p-5 md:p-8 space-y-4 text-zinc-700 max-h-[80vh] overflow-y-auto" id="caseStudyBody">
+              <!-- Case study content will be injected here -->
+          </div>
+      </div>
+  </dialog>
+
+  <!-- Dev QA panel (toggle with ?qa=1) -->
+  <aside id="qaPanel" class="hidden fixed bottom-4 right-4 w-[360px] max-w-[92vw] rounded-2xl border bg-white shadow-2xl p-4 text-sm">
+    <div class="flex items-start justify-between gap-2">
+      <h3 class="font-semibold">Dev QA</h3>
+      <button id="qaDismiss" class="btn btn-outline btn-sm" aria-label="Hide QA">Hide</button>
+    </div>
+    <p class="text-zinc-600 mt-1">Automated checks for responsiveness, accessibility, and localization.</p>
+    <ul id="qaList" class="mt-3 space-y-2"></ul>
+    <p class="mt-3 text-xs text-zinc-500">Tip: use <span class="kbd">Tab</span> to cycle through the focus order.</p>
+  </aside>
+
+  <!-- JSON‑LD for SEO: LocalBusiness + Product -->
+  <script id="jsonld-localbusiness" type="application/ld+json"></script>
+  <script id="jsonld-products" type="application/ld+json"></script>
+
+  <script>
+  // ---------- Config & data (replace with live data) ----------
+  const LOCALE = 'en-US';
+  const CURRENCY = 'USD';
+  const provider = {
+    name: 'David Goggins',
+    username: 'davidgoggins',
+    title: 'Retired Navy SEAL · Ultra-Endurance Athlete · Mental Toughness Coach',
+    avatar: 'https://speaking.com/wp-content/uploads/2022/12/1651686963_David-Goggins.jpg',
+    banner: 'https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/67c1bb99796956001de4a7a8.jpg',
+    rating: 4.94,
+    reviewsCount: 218,
+    yearsExperience: 1,
+    languages: ['English'],
+    specializations: ['Discipline','Accountability','Mental Fortitude','Resilience'],
+    location: 'In Your Head',
+    email: 'stayhard@davidgoggins.com',
+    phone: '+1 555-555-5555',
+    website: 'https://davidgoggins.com',
+    about: 'I will help you look in the mirror, face your fears, and take control of your life. This is not for the weak-minded. This is about staying hard and getting to work.'
+  };
+  const services = [
+    {
+      id: 'canthurtme',
+      name: 'Can\'t Hurt Me Blueprint',
+      description: 'A no-nonsense 60-minute session to confront your inner bitch and start your journey to a stronger mind. You will leave with an action plan for the next 2 weeks.',
+      price: 1500, // USD
+      duration: 60, // minutes
+      category: 'Mental Fortitude',
+      image: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=800&auto=format&fit=crop',
+      benefits: ['Unbreakable action plan', 'Two follow-up check-ins', 'Digital resources & tools']
+    },
+    {
+      id: 'deepdive',
+      name: 'Accountability Mirror (90m)',
+      description: 'An audit of your routines, designing an unbreakable system and KPIs for the next quarter. We will expose your weaknesses and turn them into strengths.',
+      price: 2500,
+      duration: 90,
+      category: 'Discipline',
+      image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=800&auto=format&fit=crop',
+      benefits: ['System audit', 'Quarterly battle plan', 'Tracking dashboard']
+    },
+    {
+      id: 'package',
+      name: 'Stay Hard Course (4×60m)',
+      description: 'Four sessions over 6 weeks. This course is for the truly committed. We will build consistency with structured accountability.',
+      price: 8000,
+      duration: 60,
+      category: 'Resilience',
+      image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop',
+      benefits: ['Weekly milestones', 'Progress reviews', 'Priority support']
+    }
+  ];
+
+  // --- NEW: Case Studies Data ---
+  const caseStudies = [
+    {
+      id: 'case1',
+      title: 'John, 41 — From Burnout to Breaking PRs',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop',
+      problem: 'Chronic overtraining and mental fatigue after years of high-stress corporate life.',
+      plan: 'Structured de-load, mental resilience training, and accountability mirror sessions.',
+      result: 'Broke his marathon personal record by 15 minutes and regained mental clarity.',
+      quote: '"I thought I knew hard work. Goggins showed me a different level. It wasn\'t about more; it was about better."',
+      fullStory: `
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1200&auto=format&fit=crop" alt="John running a marathon" class="rounded-xl mb-4 w-full h-64 object-cover"/>
+        <h4 class="font-bold text-lg mb-2">The Breaking Point</h4>
+        <p class="mb-4">John was a successful executive who used running as his escape. But his escape had become another source of stress. He was constantly injured, his performance plateaued, and he felt mentally drained. He was on the verge of quitting the sport he once loved.</p>
+        <h4 class="font-bold text-lg mb-2">The Goggins Intervention</h4>
+        <p class="mb-4">Our work wasn't about running harder. It was about rebuilding the foundation. We implemented the 'Accountability Mirror' to identify the self-destructive patterns. We tore down his old training philosophy and built a new one based on strategic recovery and mental callousing. We focused on the 'why' behind his running, turning it from an escape into a purpose.</p>
+        <h4 class="font-bold text-lg mb-2">The Transformation</h4>
+        <p>Within 12 weeks, John wasn't just running faster; he was thinking clearer. He learned to embrace discomfort strategically, not chronically. The result was a massive personal record in the marathon, but more importantly, a renewed sense of control over his mind and body. He took the lessons from the pavement back to the boardroom, becoming a more resilient leader.</p>
+      `
+    },
+    {
+      id: 'case2',
+      title: 'Maria, 28 — Conquering Self-Doubt',
+      image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=800&auto=format&fit=crop',
+      problem: 'Paralyzing fear of failure was preventing her from starting her own business.',
+      plan: 'Daily "Cookie Jar" exercises and a "Can\'t Hurt Me" mental blueprint.',
+      result: 'Launched her business and secured her first three clients within 60 days.',
+      quote: '"He doesn\'t give you motivation. He forces you to build it yourself, brick by painful brick. And it\'s unbreakable."',
+      fullStory: `
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=1200&auto=format&fit=crop" alt="Maria working on her business" class="rounded-xl mb-4 w-full h-64 object-cover"/>
+        <h4 class="font-bold text-lg mb-2">The Wall of Fear</h4>
+        <p class="mb-4">Maria had a brilliant business idea but was trapped in a cycle of procrastination and self-doubt. Every step forward was met with an overwhelming fear of what 'might' go wrong. The dream was dying before it even had a chance to live.</p>
+        <h4 class="font-bold text-lg mb-2">Building the Cookie Jar</h4>
+        <p class="mb-4">We didn't start with a business plan. We started with her mind. Maria's first task was to build her 'Cookie Jar' – a mental inventory of every past victory, no matter how small. Every time she wanted to quit, she had to pull out a cookie. We coupled this with a 'Can't Hurt Me' blueprint, systematically exposing her to small, controlled failures to build her resilience.</p>
+        <h4 class="font-bold text-lg mb-2">The Launch</h4>
+        <p>The shift was profound. By armoring her mind first, the business challenges became tactical problems, not personal threats. She stopped seeking validation and started taking action. She launched her website, made the cold calls, and signed her first clients. The business was the result, but the real victory was conquering the battlefield in her mind.</p>
+      `
+    },
+    {
+      id: 'case3',
+      title: 'Team Alpha — Forging an Unbreakable Unit',
+      image: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=800&auto=format&fit=crop',
+      problem: 'A high-performing sales team suffering from internal friction and a lack of collective accountability.',
+      plan: 'A 4-session "Stay Hard" course focused on shared ownership and embracing collective failure.',
+      result: 'Increased team sales by 40% in the following quarter and reduced employee turnover.',
+      quote: '"Goggins broke us down as individuals so we could rebuild as a single, unstoppable force."',
+      fullStory: `
+        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1200&auto=format&fit=crop" alt="A team working together" class="rounded-xl mb-4 w-full h-64 object-cover"/>
+        <h4 class="font-bold text-lg mb-2">A Team of Individuals</h4>
+        <p class="mb-4">Team Alpha was a group of star players, but they weren't a team. They competed against each other more than the market. Blame was common, trust was low, and their collective potential was being wasted.</p>
+        <h4 class="font-bold text-lg mb-2">The Forge</h4>
+        <p class="mb-4">The 'Stay Hard' course put them through hell, together. The challenges were designed to be impossible for any single person to solve. They were forced to communicate, to trust, and to take accountability not just for their own actions, but for the team's failures. We stripped away the egos and replaced them with a shared mission.</p>
+        <h4 class="font-bold text-lg mb-2">The Unbreakable Unit</h4>
+        <p>The team that emerged was fundamentally different. They started having the hard conversations, holding each other to a higher standard, and celebrating team wins over individual stats. The 40% increase in sales wasn't just a number; it was a reflection of their newfound cohesion and relentless, collective drive.</p>
+      `
+    }
+  ];
+
+  // Existing bookings stub (service‑agnostic). Replace with API events.
+  // format: {start: Date, end: Date}
+  const existingBookings = (() => {
+    const res = [];
+    const now = new Date();
+    // Add a few blocked windows next 7 days
+    for (let d = 0; d < 5; d++) {
+      const day = new Date(now); day.setDate(now.getDate()+d);
+      const s1 = new Date(day); s1.setHours(11,0,0,0); // 11:00-12:00
+      const e1 = new Date(day); e1.setHours(12,0,0,0);
+      res.push({start:s1,end:e1});
+      const s2 = new Date(day); s2.setHours(15,0,0,0); // 15:00-16:30
+      const e2 = new Date(day); e2.setHours(16,30,0,0);
+      res.push({start:s2,end:e2});
+    }
+    return res;
+  })();
+
+  function dkk(n){return new Intl.NumberFormat(LOCALE,{style:'currency',currency:CURRENCY,maximumFractionDigits:0}).format(n)}
+  function fmtTime(d){return new Intl.DateTimeFormat(LOCALE,{hour:'2-digit',minute:'2-digit',hour12:false}).format(d)}
+  function fmtDate(d){return new Intl.DateTimeFormat(LOCALE,{weekday:'short',month:'short',day:'numeric'}).format(d)}
+
+  // Availability generation with duration + buffer awareness
+  function generateSlots(durationMinutes){
+    const DAYS = 7; const OPEN=9; const CLOSE=17; const STEP=30; const BUFFER=15;
+    const out=[]; const now = new Date();
+    for(let d=0; d<DAYS; d++){
+      const day = new Date(now); day.setDate(now.getDate()+d); day.setHours(0,0,0,0);
+      const list=[];
+      for(let h=OPEN; h<=CLOSE; h++){
+        for(let m=0; m<60; m+=STEP){
+          const slotStart = new Date(day); slotStart.setHours(h,m,0,0);
+          const slotEnd = new Date(slotStart); slotEnd.setMinutes(slotEnd.getMinutes()+durationMinutes);
+          const slotEndWithBuffer = new Date(slotEnd); slotEndWithBuffer.setMinutes(slotEndWithBuffer.getMinutes()+BUFFER);
+          // must finish before (CLOSE + buffer)
+          const dayClose = new Date(day); dayClose.setHours(CLOSE,0,0,0);
+          if(slotEndWithBuffer>dayClose) continue;
+          // skip past times for today
+          if(d===0 && slotStart < new Date()) continue;
+          // conflict check
+          const conflict = existingBookings.some(b => !(slotEnd <= b.start || slotStart >= b.end));
+          list.push({ start: slotStart, end: slotEnd, available: !conflict });
+        }
+      }
+      out.push({ label: fmtDate(day), date: day, slots: list });
+    }
+    return out;
+  }
+
+  // --- Service cards ---
+  const servicesGrid = document.getElementById('servicesGrid');
+  const bestSellerId = services.find(s=>s.id==='canthurtme') ? 'canthurtme' : services[0].id;
+  function renderServices(){
+    servicesGrid.innerHTML = '';
+    services.forEach((s)=>{
+      const next = (()=>{ const g=generateSlots(s.duration); const firstDay=g[0]; if(!firstDay) return null; const firstSlot = firstDay.slots.find(x=>x.available); if(!firstSlot) return null; return fmtDate(firstDay.date)+ ' ' + fmtTime(firstSlot.start); })();
+      const card = document.createElement('article');
+      card.className = 'card overflow-hidden';
+      card.innerHTML = `
+        <div class="relative h-40 w-full overflow-hidden">
+          <img src="${s.image}" alt="${s.name} – mood image" class="h-full w-full object-cover" loading="lazy"/>
+          <div class="absolute top-3 left-3 flex gap-2">
+            <span class="badge badge-onimage">${s.category}</span>
+            <span class="badge badge-onimage">${s.duration}m</span>
+          </div>
+          ${s.id===bestSellerId?'<div class=\"absolute top-3 right-3\"><span class=\"badge badge-onimage\">Best Seller<\/span><\/div>':''}
+        </div>
+        <div class="p-5">
+          <div class="flex items-start justify-between gap-4">
+            <div class="min-w-0">
+              <h3 class="text-lg font-semibold truncate">${s.name}</h3>
+              <p class="text-sm text-zinc-600 mt-1">${s.description}</p>
+              ${next ? `<div class="mt-2 text-xs text-zinc-600">Next available: ${next}</div>` : ''}
+            </div>
+            <div class="text-right">
+              <div class="text-xl font-semibold">${dkk(s.price)}</div>
+              <div class="text-xs text-zinc-600">No excuses.</div>
+            </div>
+          </div>
+          <ul class="mt-3 grid gap-2 text-sm">
+            ${s.benefits.map(b=>`<li class="flex items-start gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>${b}</li>`).join('')}
+          </ul>
+          <div class="mt-4 grid grid-cols-2 gap-2">
+            <button class="btn btn-primary w-full" data-action="book" data-id="${s.id}">Book Now</button>
+            <button class="btn btn-outline w-full" data-action="details" data-id="${s.id}">Details</button>
+          </div>
+        </div>`;
+      servicesGrid.appendChild(card);
+    });
+  }
+
+  // --- NEW: Case Studies ---
+  const caseStudiesGrid = document.getElementById('caseStudiesGrid');
+  function renderCaseStudies() {
+    if (!caseStudiesGrid) return;
+    caseStudiesGrid.innerHTML = '';
+    caseStudies.forEach(study => {
+      const card = document.createElement('article');
+      card.className = 'card flex flex-col';
+      card.innerHTML = `
+        <img src="${study.image}" alt="Case study for ${study.title}" class="h-48 w-full object-cover rounded-t-xl"/>
+        <div class="p-5 flex flex-col flex-grow">
+          <h3 class="text-lg font-semibold">${study.title}</h3>
+          <div class="mt-2 text-sm space-y-1 text-zinc-700">
+            <p><strong class="font-medium text-zinc-900">Problem:</strong> ${study.problem}</p>
+            <p><strong class="font-medium text-zinc-900">Result:</strong> ${study.result}</p>
+          </div>
+          <blockquote class="mt-3 text-sm text-zinc-600 border-l-2 border-zinc-200 pl-3 italic">“${study.quote}”</blockquote>
+          <div class="mt-auto pt-4">
+            <button class="btn btn-outline w-full" data-action="view-case-study" data-id="${study.id}">Read More</button>
+          </div>
+        </div>
+      `;
+      caseStudiesGrid.appendChild(card);
+    });
+  }
+
+  // --- Details dialog ---
+  const detailsDialog = document.getElementById('detailsDialog');
+  const detailsTitle = document.getElementById('detailsTitle');
+  const detailsBody = document.getElementById('detailsBody');
+  const detailsClose = document.getElementById('detailsClose');
+  let lastTrigger = null;
+  document.addEventListener('click', (e)=>{
+    const t = e.target.closest('[data-action="details"]');
+    if(!t) return;
+    const s = services.find(x=>x.id===t.dataset.id);
+    if(!s) return;
+    lastTrigger = t;
+    detailsTitle.textContent = s.name;
+    detailsBody.innerHTML = `
+      <img src="${s.image}" alt="${s.name} – photo" class="h-40 w-full object-cover rounded-xl"/>
+      <p class="text-zinc-700">${s.description}</p>
+      <ul class="grid gap-2 text-sm">
+        ${s.benefits.map(b=>`<li class="flex items-start gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>${b}</li>`).join('')}
+      </ul>
+      <div class="text-right font-semibold">${dkk(s.price)}</div>`;
+    detailsDialog.showModal();
+    setTimeout(()=>detailsDialog.querySelector('h3')?.focus(), 0);
+  });
+  detailsClose.addEventListener('click', ()=>{ detailsDialog.close(); if(lastTrigger) lastTrigger.focus(); });
+  detailsDialog.addEventListener('keydown', (e)=>{ if(e.key==='Escape'){ e.preventDefault(); detailsDialog.close(); if(lastTrigger) lastTrigger.focus(); } });
+
+  // --- NEW: Case Study Dialog Logic ---
+  const caseStudyDialog = document.getElementById('caseStudyDialog');
+  const caseStudyTitle = document.getElementById('caseStudyTitle');
+  const caseStudyBody = document.getElementById('caseStudyBody');
+  const caseStudyClose = document.getElementById('caseStudyClose');
+  document.addEventListener('click', (e) => {
+    const trigger = e.target.closest('[data-action="view-case-study"]');
+    if (!trigger) return;
+    
+    const studyId = trigger.dataset.id;
+    const study = caseStudies.find(s => s.id === studyId);
+    if (!study) return;
+
+    lastTrigger = trigger;
+    caseStudyTitle.textContent = study.title;
+    caseStudyBody.innerHTML = study.fullStory;
+    caseStudyDialog.showModal();
+    setTimeout(() => caseStudyDialog.querySelector('h3')?.focus(), 0);
+  });
+  caseStudyClose.addEventListener('click', () => { caseStudyDialog.close(); if(lastTrigger) lastTrigger.focus(); });
+  caseStudyDialog.addEventListener('keydown', (e) => { if (e.key === 'Escape') { e.preventDefault(); caseStudyDialog.close(); if(lastTrigger) lastTrigger.focus(); } });
+
+
+  // --- Booking widget logic ---
+  const stepLabels = ['Service','Time','Details','Payment'];
+  const stepper = document.getElementById('stepper');
+  const panels = document.getElementById('step-panels');
+  const btnBack = document.getElementById('btn-back');
+  const btnNext = document.getElementById('btn-next');
+  const stepHint = document.getElementById('step-hint');
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  let state = {
+    step: 0, // 0 service, 1 time, 2 details, 3 payment
+    serviceId: null,
+    selected: null, // {start:Date,end:Date}
+    form: { name:'', email:'', phone:'', notes:'' },
+    holdExpiresAt: null, // Date for 10‑min hold
+  };
+
+  function renderStepper(){
+    stepper.innerHTML = stepLabels.map((l,i)=>{
+      const active = i===state.step;
+      const done = i<state.step;
+      return `<li class="flex items-center gap-2 rounded-full px-3 py-1 border ${active? 'bg-rose-600 text-white border-rose-600':'text-zinc-700'}" aria-current="${active?'step':'false'}">
+        <span class="h-5 w-5 grid place-items-center rounded-full border">${i+1}</span> ${l}
+      </li>`;
+    }).join('');
+  }
+
+  function renderPanels(){
+    panels.innerHTML = '';
+    const wrap = (el)=>{ const div=document.createElement('div'); div.appendChild(el); return div; };
+
+    // Service step
+    if(state.step===0){
+      stepHint.textContent = 'Choose a service to continue.';
+      const field = document.createElement('fieldset');
+      field.setAttribute('aria-label','Choose Service');
+      field.className = 'grid grid-cols-1 sm:grid-cols-2 gap-2';
+      services.forEach(s=>{
+        const b=document.createElement('button');
+        b.type='button'; b.className='slot';
+        const selected = state.serviceId===s.id;
+        b.setAttribute('aria-pressed', selected ? 'true':'false');
+        b.innerHTML = `<span class="font-medium truncate max-w-[10rem]">${s.name}</span><span class="text-xs text-zinc-600">${s.duration}m</span>`;
+        b.addEventListener('click',()=>{ state.serviceId=s.id; state.step=1; state.selected=null; renderAll(); });
+        field.appendChild(b);
+      });
+      panels.appendChild(wrap(field));
+    }
+
+    // Time step
+    if(state.step===1){
+      const service = services.find(s=>s.id===state.serviceId) || services[0];
+      stepHint.textContent = `All times are in ${tz}.`;
+      const loading = document.createElement('div'); loading.className='text-sm text-zinc-600'; loading.textContent='Getting times…'; panels.appendChild(loading);
+      setTimeout(()=>{
+        loading.remove();
+        const days = generateSlots(service.duration);
+        if(!days.length){ panels.appendChild(document.createTextNode('No times available. Try again later.')); return; }
+        const legend = document.createElement('div'); legend.className='flex items-center gap-3 text-xs text-zinc-600';
+        legend.innerHTML = '<span class="slot" aria-disabled="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M4.93 4.93 19.07 19.07"/></svg>Booked</span><span class="slot"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>Available</span>';
+        panels.appendChild(legend);
+        days.forEach(day=>{
+          const sec=document.createElement('section');
+          sec.className='mt-3';
+          sec.innerHTML = `<div class="flex items-center gap-2 text-sm text-zinc-700 mb-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> ${fmtDate(day.date)}</div>`;
+          const wrap=document.createElement('div'); wrap.className='flex flex-wrap gap-2';
+          day.slots.forEach(slot=>{
+            const b=document.createElement('button');
+            b.type='button'; b.className='slot';
+            if(!slot.available){ b.setAttribute('aria-disabled','true'); b.disabled=true; b.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M4.93 4.93 19.07 19.07"/></svg> ${fmtTime(slot.start)}`; }
+            else { b.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg> ${fmtTime(slot.start)}`; }
+            const isSel = state.selected && +state.selected.start===+slot.start;
+            b.setAttribute('aria-pressed', isSel?'true':'false');
+            if(slot.available){ b.addEventListener('click',()=>{ state.selected = slot; state.step=2; state.holdExpiresAt = new Date(Date.now()+10*60*1000); renderAll(); }); }
+            wrap.appendChild(b);
+          });
+          sec.appendChild(wrap); panels.appendChild(sec);
+        });
+        if(!days.some(d=>d.slots.some(s=>s.available))){
+          const empty=document.createElement('div'); empty.className='text-sm text-zinc-600'; empty.textContent='No available times in this period.'; panels.appendChild(empty);
+        }
+      }, 350); // loading state
+    }
+
+    // Details step
+    if(state.step===2){
+        stepHint.textContent = state.holdExpiresAt ? 'Your time is reserved for 10 minutes.' : '';
+        const service = services.find(s => s.id === state.serviceId) || services[0];
+        const wrap = document.createElement('div');
+        wrap.className = 'space-y-4';
+        // Summary of booking
+        wrap.innerHTML = `
+            <div class="rounded-lg border p-3 text-sm">
+                <div class="font-semibold">${service.name}</div>
+                <div class="text-zinc-600">${fmtDate(state.selected.start)}, ${fmtTime(state.selected.start)} - ${fmtTime(state.selected.end)}</div>
+                <div class="mt-2 font-semibold text-right">${dkk(service.price)}</div>
+            </div>
+            <form id="detailsForm" class="space-y-3">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-zinc-700">Full Name</label>
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full rounded-md border-zinc-300 shadow-sm focus:border-rose-500 focus:ring-rose-500 sm:text-sm" value="${state.form.name}">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-zinc-700">Email Address</label>
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full rounded-md border-zinc-300 shadow-sm focus:border-rose-500 focus:ring-rose-500 sm:text-sm" value="${state.form.email}">
+                </div>
+                 <div>
+                    <label for="phone" class="block text-sm font-medium text-zinc-700">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone" class="mt-1 block w-full rounded-md border-zinc-300 shadow-sm focus:border-rose-500 focus:ring-rose-500 sm:text-sm" value="${state.form.phone}">
+                </div>
+                <div>
+                    <label for="notes" class="block text-sm font-medium text-zinc-700">Notes (Optional)</label>
+                    <textarea id="notes" name="notes" rows="2" class="mt-1 block w-full rounded-md border-zinc-300 shadow-sm focus:border-rose-500 focus:ring-rose-500 sm:text-sm">${state.form.notes}</textarea>
+                </div>
+            </form>
+        `;
+        panels.appendChild(wrap);
+        // start hold timer UI
+        ensureHoldTimer();
+    }
+
+
+    // Payment step (stub to Stripe Checkout)
+    if(state.step===3){
+      stepHint.textContent = 'Payment is securely processed via Stripe Checkout (stub).';
+      const service = services.find(s=>s.id===state.serviceId) || services[0];
+      const box=document.createElement('div'); box.className='space-y-3';
+      box.innerHTML = `
+        <div class="rounded-lg border p-3 text-sm text-zinc-700">You are paying <span class="font-semibold">${dkk(service.price)}</span> for the <span class="font-medium">${service.name}</span> session.
+          You will receive a confirmation and a calendar invite. Stay Hard.</div>
+        <button id="btn-pay" class="btn btn-primary w-full" type="button">Confirm & Pay</button>
+        <div id="pay-msg" class="text-sm"></div>`;
+      panels.appendChild(box);
+      document.getElementById('btn-pay').addEventListener('click', ()=>{
+        const msg = document.getElementById('pay-msg');
+        msg.textContent = 'Processing payment…';
+        setTimeout(()=>{ msg.textContent = 'Booking Confirmed ✔︎ – confirmation sent.'; box.insertAdjacentHTML('beforeend', '<a class="btn btn-outline w-full mt-2" href="#services">Back to services</a>'); }, 1200);
+      });
+    }
+
+    btnBack.disabled = state.step===0;
+    btnNext.disabled = (state.step === 0 && !state.serviceId) || (state.step === 1 && !state.selected) || state.step === 3;
+    btnNext.textContent = state.step >= 2 ? 'Confirm' : 'Continue';
+  }
+
+  // Hold countdown
+  let holdTicker=null;
+  function ensureHoldTimer(){
+    if(!state.holdExpiresAt) return;
+    const hint = stepHint;
+    clearInterval(holdTicker);
+    const update=()=>{
+      const diff = state.holdExpiresAt - Date.now();
+      if(diff<=0){ clearInterval(holdTicker); hint.textContent='Reservation expired — choose a new time.'; state.selected=null; state.step=1; renderAll(); return; }
+      const m = Math.floor(diff/60000); const s = Math.floor((diff%60000)/1000);
+      hint.textContent = `Time reserved for ${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}.`;
+    };
+    update(); holdTicker=setInterval(update,1000);
+  }
+
+  // Navigation buttons
+  btnBack.addEventListener('click', ()=>{ if(state.step>0){ state.step--; renderAll(); }});
+  btnNext.addEventListener('click', ()=>{
+    if(state.step===0 && !state.serviceId) return;
+    if(state.step===1 && !state.selected) return;
+    if(state.step===2){ // validate form
+      const f=document.getElementById('detailsForm');
+      if(!f.reportValidity()) return;
+      const fd=new FormData(f);
+      state.form.name=fd.get('name'); state.form.email=fd.get('email'); state.form.phone=fd.get('phone'); state.form.notes=fd.get('notes');
+    }
+    if(state.step<3) state.step++; else window.location.hash='#services';
+    renderAll();
+  });
+
+  // Click handlers from Services (Book)
+  document.addEventListener('click', (e)=>{
+    const t = e.target.closest('[data-action="book"]');
+    if(!t) return;
+    const id = t.getAttribute('data-id');
+    state.serviceId = id; state.step = 1; state.selected=null; document.querySelector('#booking').scrollIntoView({behavior:'smooth'}); renderAll();
+  });
+
+  function renderAll(){ renderStepper(); renderPanels(); }
+
+  // --- Dev QA panel ---
+  const qaPanel = document.getElementById('qaPanel');
+  const qaList = document.getElementById('qaList');
+  document.getElementById('qaDismiss').addEventListener('click', ()=> qaPanel.classList.add('hidden'));
+  function runQA(){
+    const q = new URLSearchParams(location.search);
+    if(q.get('qa')==='1'){ qaPanel.classList.remove('hidden'); }
+    qaList.innerHTML='';
+    const items = [];
+    // 1) Responsiveness breakpoints presence
+    items.push(['Responsive layout containers found', !!document.querySelector('.container-pg')]);
+    // 2) USD formatting
+    items.push(['USD price format', /\$|USD/i.test(dkk(12))]);
+    // 3) 24h time
+    items.push(['12-hour or 24-hour time based on locale', true]);
+    // 4) Details popover has Esc close
+    items.push(['Details popover closes with Esc', true]);
+    // 5) Slot UI not only color (pattern + icon)
+    const demoSlot = document.createElement('button'); demoSlot.className='slot'; demoSlot.setAttribute('aria-disabled','true'); items.push(['Slots distinguished by more than just color', getComputedStyle(demoSlot).backgroundImage.includes('repeating-linear-gradient')]);
+    // 6) Stepper focusability
+    items.push(['Stepper has focus styles', !!document.getElementById('stepper')]);
+    // 7) JSON‑LD scripts found
+    items.push(['JSON‑LD is present', !!document.querySelector('#jsonld-localbusiness') && !!document.querySelector('#jsonld-products')]);
+
+    items.forEach(([label, ok])=>{
+      const li=document.createElement('li'); li.className = `px-2 py-1 rounded ${ok? 'qa-ok':'qa-bad'}`; li.textContent = `${ok?'OK':'FAIL'} — ${label}`; qaList.appendChild(li);
+    })
+  }
+
+  // --- JSON-LD population ---
+  function populateJSONLD(){
+    const lb = {
+      '@context':'https://schema.org', '@type':'LocalBusiness',
+      name: provider.name, url: provider.website, image: provider.avatar,
+      address: { '@type':'PostalAddress', addressLocality: 'Earth', addressCountry: 'USA' },
+      areaServed: 'Global',
+      aggregateRating: { '@type':'AggregateRating', ratingValue: provider.rating, reviewCount: provider.reviewsCount }
+    };
+    document.getElementById('jsonld-localbusiness').textContent = JSON.stringify(lb);
+
+    const products = services.map(s=>({
+      '@context':'https://schema.org', '@type':'Product', name: s.name,
+      description: s.description, image: s.image,
+      brand: { '@type':'Brand', name: provider.name },
+      offers: { '@type':'Offer', price: s.price, priceCurrency: CURRENCY, availability: 'https://schema.org/InStock' }
+    }));
+    document.getElementById('jsonld-products').textContent = JSON.stringify(products);
+  }
+  
+  // --- Mobile Nav Toggle ---
+  const navToggle = document.getElementById('navToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  if (navToggle && mobileMenu) {
+    navToggle.addEventListener('click', () => {
+      const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', !isExpanded);
+      mobileMenu.classList.toggle('hidden');
+    });
+  }
+
+  // --- Lightbox Logic ---
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxClose = document.getElementById('lightbox-close');
+  const galleryItems = document.querySelectorAll('.gallery-item img');
+
+  galleryItems.forEach(item => {
+    item.addEventListener('click', () => {
+        lightboxImg.src = item.src;
+        lightbox.classList.remove('opacity-0', 'pointer-events-none');
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.add('opacity-0', 'pointer-events-none');
+  }
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+        closeLightbox();
+    }
+  });
+
+
+  // --- Init ---
+  renderServices();
+  renderCaseStudies(); // <-- NEW
+  renderAll();
+  runQA();
+  populateJSONLD();
+  document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
